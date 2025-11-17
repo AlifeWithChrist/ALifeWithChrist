@@ -1,0 +1,27 @@
+import React, { useState } from "react";
+
+const PAYPAL_ME_URL = "https://paypal.me/Illiasst";
+const CURRENCY = "EUR";
+
+const productsSeed = [
+  {
+    id: "bible-001",
+    title: "Compact Gospel Bible — Samenvatting",
+    price: 9.99,
+    short: "Een beknopte, moderne samenvatting van de Bijbel gericht op dagelijkse meditatie.",
+    long: `Deze samenvatting neemt je stap voor stap door de kernverhalen van de Bijbel,
+met reflecties en gebeden die praktisch en toepasbaar zijn voor elke dag. Perfect
+als introductie of als cadeau.`,
+    image: "https://via.placeholder.com/400x300?text=Compact+Gospel+Bible",
+  },
+  {
+    id: "bible-002",
+    title: "Family Devotional — Samenvatting",
+    price: 12.5,
+    short: "Gezinsvriendelijke samenvatting met gespreksvragen en gebedstips.",
+    long: `Speciaal gemaakt voor gezinnen: verhalen, reflecties en vragen om samen over te praten en te bidden.`,
+    image: "https://via.placeholder.com/400x300?text=Family+Devotional",
+  },
+  {
+    id: "bible-003",
+    title: "Daily Steps — 30-day Bijbels Samenv
